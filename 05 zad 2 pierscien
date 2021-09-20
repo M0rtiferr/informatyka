@@ -1,0 +1,30 @@
+#include <iostream>
+#include <cmath> // biblioteka z funkcjami matematycznymi
+using namespace std;
+
+
+// Napisz program, który oblicza pole i obwod pierścienia.
+// Długości promieni podaje użytkownik.
+
+
+main(){
+    // 1. Tworzenie zmiennych
+    
+    // 2. Wyświetlanie komunikatów
+    
+    // 3. Pobieranie danych od użytkownika
+    
+    // 4. Obliczenia 
+    
+    // 5. Wyświetlenie odpowiedzi
+        
+
+ 
+
+    system("pause");
+}
+
+ 
+
+
+ 
