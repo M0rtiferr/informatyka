@@ -10,11 +10,22 @@ using namespace std;
 main(){
     // 1. Tworzenie zmiennych
     
+    	float r, R, pole, obwod;
+    	
     // 2. Wyświetlanie komunikatów
     
+    	cout << " Podaj dlugosc malego promienia: "<< r << endl;
+    	
+    	cout << " Podaj dlugosc duzego promienia: "<< R << endl;
+    	
+    	
     // 3. Pobieranie danych od użytkownika
-    
+    cin >> r;
+  	cin >> R;
+    	
     // 4. Obliczenia 
+    pole = M_PI*(pow(R, 2) - (pow(r, 2)));
+    obwod = 2*M_PI*(R+r);
     
     // 5. Wyświetlenie odpowiedzi
         
