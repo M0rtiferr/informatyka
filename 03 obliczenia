@@ -69,8 +69,24 @@ cout << floor(1.9) << endl;
 
 cout << abs(-9) << endl;
 cout << fabs(5-.57686567574) << endl; // liczby rzeczywiste ( float )
+// Pi
+	cout << M_PI << endl;
+// Eulera
+	cout << M_E << endl;
+
+// minimum i maksium
+	cout << min( 6.7, 4.98 ) << endl;
+	cout << max ( 6.7, 4.98 ) << endl;
+
+ // reszta z dzielenia z liczb rzeczywistych
+ //cout << 2.5 % 1 << endl; // błąd!! operator % działa
+ // liczbach całkowitych
+                             
+
+cout << fmod( 2.5,1 ) << endl; // działa na liczbach rzeczywistych
 
 system("pause");
+
 
 }
 
