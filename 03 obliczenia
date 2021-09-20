@@ -1,0 +1,76 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std ;
+
+main(){
+
+cout << ( 2+3 ) << endl;
+cout << (12.3 + 10.6) << endl;
+
+cout << (9-15)<< endl;
+cout << (12 + (-3.5 ))<< endl;
+
+cout << 2+2*2 << endl;
+cout << (2+2)*2 << endl;
+
+// / dzielenie
+cout << (5/2) << endl;
+//// dzielenie całkowite!!!!!
+// gdy dzielimy liczbę całkowitą / liczbę całkowita = L.całkowitą
+
+cout << 5.0  << endl;
+//
+
+// r/c = r
+// c/r = r
+// r/r = r
+
+// c/c = c
+
+// reszta z dzuielenia - dzielenie moduloo - mod - %
+cout << 5%2 << endl;
+
+// oblicz i wyświetl: 6%3, 5%8, 10%6
+//...
+
+
+// pow(x,y) - x do potęgi y
+cout << pow( 2, 3) << endl;
+ // pierwiastek drugiego stopnia z liczby
+cout << sqrt(9) << endl;
+// pierwiastek tylko trzeciego stopnia
+cout << cbrt(8) << endl;
+
+// jak obliczyć pierwiastek czwartego stopnia z 16?
+cout << pow (16, 1/4) << endl;
+// 1/4 = 0
+// 1.0/4 = 0.25
+cout << pow (16, 1.0/4) << endl;
+
+cout << round(1.5) << endl;
+cout << round(1.4) << endl;
+
+
+
+cout <<  round(1.25555) << endl;
+//do 2 po przecinku
+cout  << (round (1.25555 * 100)) / 100.0 << endl;
+// do 3 cyfry po przecinku
+cout << (round ( 1.2555 * 1000 )) / 1000.0 << endl;
+
+
+//ceil() - w gore
+cout << ceil( 1.1 ) << endl; //2
+//floor() - w dol
+cout << floor(1.9) << endl;
+
+//wartosc bezwzgledn
+
+cout << abs(-9) << endl;
+cout << fabs(5-.57686567574) << endl; // liczby rzeczywiste ( float )
+
+system("pause");
+
+}
+
