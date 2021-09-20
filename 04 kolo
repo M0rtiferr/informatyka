@@ -1,0 +1,33 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+/*
+Napisz program, który prosi o podanie długości promienia, oblicza
+i wyświetala na ekranie pole i obwód koła.
+*/
+
+main (){
+	
+	// zmienne
+	float r;
+	float pole, obwod;
+	
+	// komunikat z prośbą
+	cout << "Podaj dlugosc promienia: " << endl;
+	
+	// pobieranie danych od uzytkownika
+	cin >> r;
+	
+	// obliczenia
+	pole =  M_PI * pow(r, 2);
+	obwod = 2 * M_PI * r;
+	
+	// wyswietlenie odp
+	cout << "Kolo o promieniu:" << r
+		   << " ma pole: " << pole
+		   << " oraz obwod: " << obwod << "." << endl;
+	
+	
+	system("pause");
+}
