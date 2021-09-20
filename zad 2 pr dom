@@ -1,0 +1,23 @@
+#include <iostream>
+#include <cmath> 
+using namespace std;
+
+main (){
+
+	float X1, X2, Y1, Y2;
+	float odleglosc;
+	
+	cout << "Podaj koordynaty X1: " << endl;
+	cin >> x1;
+	cout << "Podaj koordynaty Y1: " << endl;
+	cin >> Y1;
+	cout << "Podaj koordynaty X2: " << endl;
+	cin >> X2;
+	cout << "Podaj koordynaty Y2: " << endl;
+	cin >> Y2;
+
+	odleglosc = sqrt((((pow(X2-X1, 2)))+((pow(Y2-Y1, 2)))));
+	cout << "Miedzy punktem A o koordynatach X1: " << X1 << " oraz Y1: " << Y1 << " i punktem B o koordynatach X2: " << X2 << " i Y2: " << Y2 << ", odleglosc wynosi: " << odleglosc << endl; 
+	
+	system("pause");
+}
