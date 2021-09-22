@@ -1,41 +1,29 @@
 #include <iostream>
-#include <cmath> // biblioteka z funkcjami matematycznymi
+#include <cmath> 
 using namespace std;
 
-
-// Napisz program, który oblicza pole i obwod pierścienia.
-// Długości promieni podaje użytkownik.
-
-
 main(){
-    // 1. Tworzenie zmiennych
+	
+    // zmienne
     
-    	float r, R, pole, obwod;
-    	
-    // 2. Wyświetlanie komunikatów
+    float r, R, pole, obwod;
+
+    // komunikaty i dane od uzytkownika
     
-    	cout << " Podaj dlugosc malego promienia: "<< r << endl;
-    	
-    	cout << " Podaj dlugosc duzego promienia: "<< R << endl;
-    	
-    	
-    // 3. Pobieranie danych od użytkownika
+    cout << "Podaj male r: " << endl;
     cin >> r;
-  	cin >> R;
-    	
-    // 4. Obliczenia 
-    pole = M_PI*(pow(R, 2) - (pow(r, 2)));
+    cout << "Podaj duze R: " << endl;
+    cin >> R;
+    
+    // obliczenia 
+    
+    pole = M_PI*((pow(R,2))-(pow(r,2)));
     obwod = 2*M_PI*(R+r);
     
-    // 5. Wyświetlenie odpowiedzi
-        
-
- 
-
+    // wyswietlenie odpowiedzi
+    
+   cout << "Pierscien o r: " << r << " i R: " << R << " ma pole: " << pole << ", oraz obwod: "<< obwod << "." << endl;
+	      
     system("pause");
+    
 }
-
- 
-
-
- 
