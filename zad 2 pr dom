@@ -4,8 +4,7 @@ using namespace std;
 
 main (){
 
-	float X1, X2, Y1, Y2;
-	float odleglosc;
+	float X1, X2, Y1, Y2, odleglosc;
 	
 	cout << "Podaj koordynaty X1: " << endl;
 	cin >> x1;
