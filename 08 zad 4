@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+/*
+    Napisz program, który pyta się o wiek oraz czy posiadasz prawo jazdy.
+    Jeżeli jestes pełnoletni i masz prawojazdy, to wyświetla się komunikat o treść:
+    "Masz prawo jazdy i jesteś pełnoletni".
+    W przeciwnym wypadku wyświetla się komunikat:
+    "Nie masz prawa jazdy lub jesteś niepełnoletni".
+    */
+    
+ main(){
+
+	int wiek;
+	bool czyPrawoJazdy;
+	
+	cout << "Ile masz lat? " << endl;
+	cin >> wiek;
+	
+	cout << "Czy masz prawo jazdy? (0/1) " << endl;
+	cin >> czyPrawoJazdy;
+	
+	
+	if(wiek >= 18 and czyPrawoJazdy == true){
+		
+		cout << "Jestes pelnoletni i masz prawo jazdy!" << endl;
+	
+	}else{
+	
+			cout << "Nie masz prawa jazdy lub jestes niepelnoletni" << endl;
+	}
+}
