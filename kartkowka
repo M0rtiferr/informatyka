@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+main(){
+	
+	float a,b,P,O;
+	
+	cout << "Podaj bok a: ";
+	cin >> a;
+	
+	cout << "Podaj bok b: ";
+	cin >> b;
+	
+	P = a*b;
+	O = 2*a+2*b;
+	
+	cout << "Prostokat o bokach a=" << a << " b= " << b << " ma pole=" << P << " a obwod=" << O << endl;	
+	
+}
