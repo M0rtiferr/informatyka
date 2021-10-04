@@ -1,0 +1,31 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+    /*
+    Napisz program, który wczytuje z klawiatury dowolną liczbę, analizuje ją
+    oraz wyświetla jeden z komunikatów:
+     - Liczba dodatnia.
+     - Liczba zero.
+     - Liczba ujemna.
+    */
+
+main(){
+	
+	float liczba;
+	
+	cout << "Podaj liczbe: " << endl;
+	cin >> liczba;
+		
+	if( liczba > 0 ){
+		cout << "To jest liczba dodatnia: " << endl;
+	}else if( liczba == 0){
+			cout << "To jest liczba zero. "  << endl;
+	}else{
+	
+	 (liczba < 0) ;
+	cout << "To jest liczba ujemna: " << endl;
+}
+}
+
