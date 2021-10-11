@@ -1,0 +1,68 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+ 
+// b) Funkcje, które nie zwracają wartości, ale przyjmują  parametry/argumenty.
+ 
+// Ćw. 1. Napisz funkcję o nazwie pole_obwod_kwadratu,
+// która przyjmuje jeden parametr (długość boku),
+// oblicza pole i obwód oraz wyświetla napis: Pole wynosi ..., a obwod ... .
+
+/*
+ZROBIĆ!!!! !
+a) Pole i obwód prostokąta (parametry: a, b).
+b) Pole i obwód koła (parametr r).
+c) Odległość dwóch punktów (parametry: x1, y1,  x2, y2)
+d) Pole i obwód pierścienia (R, r).
+*/
+ 
+void wizytowka( string imie, string nazwisko, int wiek){
+	cout << "================" << endl;
+	cout << "Imie: " << imie << endl;
+	cout << "Nazwisko: " << nazwisko << endl;
+	cout << "Wiek: " << wiek << endl;
+   	cout << "================" << endl;
+}
+
+void pole_obwod_kwadratu( float a ){
+	float p, ob;
+	p = pow(a,2);
+	ob = 4*a;
+	cout << "Pole wynosi " << p << ", a obwod " << ob << "." << endl;
+
+	
+}
+
+void pole_obwod_prostokata( float a, float b ){
+	float p, ob;
+	
+	p = a*b;
+	ob = (2*a) + (2*b);
+	cout << "Pole wynosi " << p << ", a obwod " << ob << "." << endl;
+}
+
+void pole_obwod_kola( float r ){
+	float p, ob;
+	
+	p = M_PI * pow(r,2);
+	ob = 2*M_PI*r;
+	cout << "Pole wynosi " << p << ", a obwod " << ob << "." << endl;
+}
+
+
+
+main(){
+	//wizytowka() błąd, bo trzeba podać wszystkie argumenty/parametry
+	wizytowka( "Ferdynant", "Kiepski", 41 );
+	
+	
+	wizytowka( "xyz", "zyx", 12 );
+	
+	pole_obwod_kwadratu(6);
+	
+	pole_obwod_prostokata(3, 8);
+	
+	pole_obwod_kola(9);
+	system("pause");
+}
