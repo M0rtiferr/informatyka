@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+ 
+
+main(){ 
+     // instrukcje iteracyjne
+     
+     // pętla for( I ; II ; III ){ blok iteracji }
+     
+     // i - jest zmienną iterowaną - zmienna ta w trakcie dziłania pętli jest modyfikowana.
+     //     W tym przypadku rośnie o 1  (i=i+1) - III parametr
+    //     Na początku zmienna i ma wartość 0   (int i=0) - I parametr 
+    // Jak długo ma dziłać pętla?  odp. to II parametr (gdy i<10 )
+    // Gdy i będzie mniejsze od 10, to wykona się iteracja {blok instrukcji}.
+    
+  
+    system("pause");
+}
