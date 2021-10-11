@@ -2,7 +2,7 @@
 
 using namespace std;
  
- // a) Funkcje bez zwracania wartości i bez przyjmowania parametrów.
+// a) Funkcje bez zwracania wartości i bez przyjmowania parametrów.
  
 // definicja funkcji (jest przed main(), żeby nazwa była znana w main() )
  void funkcja1(){
@@ -11,16 +11,23 @@ using namespace std;
  	cout << "----------" << endl;
  	
  }
+ // Ćw. 1 Zdefiniuj funkcję o nazwie przedstaw_sie(), która nic nie zwraca,
+//       nie przyjmuje parametrów oraz wyświetla twoje imię i nazwisko.
+// Wywołaj tę funkcję.
+ 
+ 
+ void przedstaw_sie(){
+ 	cout << "Imie Nazwisko" << endl;
+ }
  
 main(){
+	// wowałenie funkcji
 	funkcja1();
-	
-	
-	
-	funkcja1();
+	przedstaw_sie();
 	funkcja1();
 	funkcja1();
-
+	funkcja1();
+	przedstaw_sie();
 	
 	system("pause");
 }
