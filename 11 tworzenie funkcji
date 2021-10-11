@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+ 
+ // a) Funkcje bez zwracania wartości i bez przyjmowania parametrów.
+ 
+// definicja funkcji (jest przed main(), żeby nazwa była znana w main() )
+ void funkcja1(){
+ 	cout << "----------" << endl;
+ 	cout << "funkcja1()" << endl;
+ 	cout << "----------" << endl;
+ 	
+ }
+ 
+main(){
+	funkcja1();
+	
+	
+	
+	funkcja1();
+	funkcja1();
+	funkcja1();
+
+	
+	system("pause");
+}
