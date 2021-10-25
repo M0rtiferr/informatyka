@@ -9,8 +9,7 @@ Tablica – kontener uporządkowanych danych takiego samego typu,
         0, 1, 2, 3,...
 */
 
-int main(){
-    
+ main(){
     
     // 1. definicja (tworzenie) tablicy z inicjalizacją (podanie wartości)
     // tablica na liczby całkowite (short, int, long long)
@@ -38,7 +37,8 @@ int main(){
     // tablica na znaki (typ char)  ('a', '$', 'P', 'L')
     char tablica4[] = { 'a', '$', 'P', 'L' };
     
+    cout << tablica4 << endl; // wyświetlanie tablicy znaków 
+    
     system("pause");
     
 }
-
