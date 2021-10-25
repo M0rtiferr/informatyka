@@ -13,6 +13,8 @@ Tablica – kontener uporządkowanych danych takiego samego typu,
     
     // 1. definicja (tworzenie) tablicy z inicjalizacją (podanie wartości)
     // tablica na liczby całkowite (short, int, long long)
+    
+    // indeksy/klucze 0  1  2  3   4  5
     int tablica1[] = {6, 3, 7, 0, -3, 4};
     
     /*
@@ -32,6 +34,7 @@ Tablica – kontener uporządkowanych danych takiego samego typu,
     0 - oznacza nieprawdę - false
     wartość liczbowa inna niż 0 oznacza prawdę true
     */
+    
     bool tablica3[] = {true, false, 0, 1};
     
     // tablica na znaki (typ char)  ('a', '$', 'P', 'L')
@@ -42,6 +45,16 @@ Tablica – kontener uporządkowanych danych takiego samego typu,
     // tablica na napisy (typ string)  ("napis 1", "napis 2", "napis 3")
     string tablica5[] = {"napis 1", "napis 2", "napis 3"};    
     
-    system("pause");
+	// 2. Odczytywanie/dostęp do elementów tablicy   
+        
+    cout << tablica1[0] << endl; // I element tablicy 
+    cout << tablica1[1] << endl; // 
+    cout << tablica1[2] << endl; // 
+    cout << tablica1[3] << endl; // 
+    cout << tablica1[4] << endl; // 
+    cout << tablica1[5] << endl; // 
+    cout << tablica1[6] << endl; // ostatni element
+    
+	system("pause");
     
 }
