@@ -9,7 +9,7 @@ Tablica – kontener uporządkowanych danych takiego samego typu,
         0, 1, 2, 3,...
 */
 
-main(){
+int main(){
     
     
     // 1. definicja (tworzenie) tablicy z inicjalizacją (podanie wartości)
@@ -39,3 +39,6 @@ main(){
     char tablica4[] = { 'a', '$', 'P', 'L' };
     
     system("pause");
+    
+}
+
