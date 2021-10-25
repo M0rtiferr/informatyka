@@ -54,6 +54,29 @@ Tablica – kontener uporządkowanych danych takiego samego typu,
     cout << tablica1[4] << endl; // 
     cout << tablica1[5] << endl; // ostatni element
     
+    
+	// wyświetl elementy tablic tablica2[], ...   
+    cout << "elementy tablicy tablica2[]: " << endl;
+    cout << tablica2[0] << endl;
+    cout << tablica2[1] << endl;
+    cout << tablica2[2] << endl;
+    cout << tablica2[3] << endl;
+    cout << tablica2[4] << endl;
+    
+	
+	cout << "elementy tablicy tablica3[]: " << endl;
+//    ...
+    cout << tablica3[true] << endl;
+    cout << tablica3[false] << endl;
+    cout << "elementy tablicy tablica4[]: " << endl;
+//    ...
+    cout << tablica4[0] << endl;
+    cout << tablica4[1] << endl;
+    cout << tablica4[2] << endl;
+    cout << tablica4[3] << endl;
+    cout << tablica4[4] << endl;
+    cout << "elementy tablicy tablica5[]: " << endl;    
+//  ...   
 	system("pause");
     
 }
