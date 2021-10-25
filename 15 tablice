@@ -39,6 +39,9 @@ Tablica – kontener uporządkowanych danych takiego samego typu,
     
     cout << tablica4 << endl; // wyświetlanie tablicy znaków 
     
+    // tablica na napisy (typ string)  ("napis 1", "napis 2", "napis 3")
+    string tablica5[] = {"napis 1", "napis 2", "napis 3"};    
+    
     system("pause");
     
 }
