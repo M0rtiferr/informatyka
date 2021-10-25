@@ -26,7 +26,7 @@ main(){
     // tablica z liczbami rzeczywistymi (float, double, long double)
     // (0.78, -45.9, 0, 8, -99.999)
     
-    float tablica2[] = {0.78, -45.9, 0, 8, -99.999}?;
+    float tablica2[] = {0.78, -45.9, 0, 8, -99.999};
     
     // tablica z wartościami typu bool  (true, false, 0, 1 )   
     /*
