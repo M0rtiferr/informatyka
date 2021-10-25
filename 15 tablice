@@ -45,7 +45,7 @@ Tablica – kontener uporządkowanych danych takiego samego typu,
     // tablica na napisy (typ string)  ("napis 1", "napis 2", "napis 3")
     string tablica5[] = {"napis 1", "napis 2", "napis 3"};    
     
-	// 2. Odczytywanie/dostęp do elementów tablicy   
+    // 2. Odczytywanie/dostęp do elementów tablicy   
         
     cout << tablica1[0] << endl; // I element tablicy 
     cout << tablica1[1] << endl; // 
@@ -54,8 +54,8 @@ Tablica – kontener uporządkowanych danych takiego samego typu,
     cout << tablica1[4] << endl; // 
     cout << tablica1[5] << endl; // ostatni element
     
-    
-	// wyświetl elementy tablic tablica2[], ...   
+    // wyświetl elementy tablic tablica2[], ...  
+	 
     cout << "elementy tablicy tablica2[]: " << endl;
     cout << tablica2[0] << endl;
     cout << tablica2[1] << endl;
@@ -63,20 +63,21 @@ Tablica – kontener uporządkowanych danych takiego samego typu,
     cout << tablica2[3] << endl;
     cout << tablica2[4] << endl;
     
-	
-	cout << "elementy tablicy tablica3[]: " << endl;
-//    ...
-    cout << tablica3[true] << endl;
-    cout << tablica3[false] << endl;
+    cout << "elementy tablicy tablica3[]: " << endl;
+    cout << tablica3[0] << endl;
+    cout << tablica3[1] << endl;
+    
     cout << "elementy tablicy tablica4[]: " << endl;
-//    ...
     cout << tablica4[0] << endl;
     cout << tablica4[1] << endl;
     cout << tablica4[2] << endl;
     cout << tablica4[3] << endl;
-    cout << tablica4[4] << endl;
+    
     cout << "elementy tablicy tablica5[]: " << endl;    
-//  ...   
+    cout << tablica5[0] << endl;
+    cout << tablica5[1] << endl;
+    cout << tablica5[2] << endl;
+
 	system("pause");
     
 }
