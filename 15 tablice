@@ -52,8 +52,7 @@ Tablica – kontener uporządkowanych danych takiego samego typu,
     cout << tablica1[2] << endl; // 
     cout << tablica1[3] << endl; // 
     cout << tablica1[4] << endl; // 
-    cout << tablica1[5] << endl; // 
-    cout << tablica1[6] << endl; // ostatni element
+    cout << tablica1[5] << endl; // ostatni element
     
 	system("pause");
     
