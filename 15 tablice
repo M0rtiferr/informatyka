@@ -64,7 +64,7 @@ Tablica – kontener uporządkowanych danych takiego samego typu,
     cout << tablica2[3] << endl;
     cout << tablica2[4] << endl;
     
-    cout << "elementy tablicy tablica3[]: " << endl;
+	cout << "elementy tablicy tablica3[]: " << endl;
     cout << tablica3[0] << endl;
     cout << tablica3[1] << endl;
     
@@ -75,20 +75,20 @@ Tablica – kontener uporządkowanych danych takiego samego typu,
     cout << tablica4[3] << endl;
     
     cout << "elementy tablicy tablica5[]: " << endl;    
-    cout << tablica5[0] << endl;
-    cout << tablica5[1] << endl;
-    cout << tablica5[2] << endl;
+	cout << tablica5[0] << endl;
+	cout << tablica5[1] << endl;
+	cout << tablica5[2] << endl;
 
     // 3. Definicja tablicy bez inicjalizacji (bez podania wartości)
     
     string imiona[5];
     
     // inicjalizacja elementów tablicy
-    imiona[0] = "Piotr";
-    imiona[1] = "Maniek";
-    imiona[2] = "Denis";
-    imiona[3] = "Horacy";
-    imiona[4] = "Radek";
+    imiona[0] = "Henryk";
+    imiona[1] = "Genryk";
+    imiona[2] = "Marek";
+    imiona[3] = "Kamil";
+    imiona[4] = "Vadil";
     
     cout << "Imiona to: " << imiona[0] << ", " << imiona[1] << ", " << imiona[2] << ", " << imiona[3] << ", " << imiona[4] << "." << endl;
     
@@ -98,12 +98,34 @@ Tablica – kontener uporządkowanych danych takiego samego typu,
 	// Odpowiedź: tam są śmieci - pozostałości danych po poprzednich programach
 	
 	// 4. Współpraca tablic z pętlami
-	cout << "Wyswietlanie zawartosci tablica1[] za pomoca petli: " << endl;
+cout << "Wyswietlanie zawartosci tablica1[] za pomoca petli: " << endl;
 	for ( int i=0; i<6; i=i+1){
 		cout << tablica1[i] << ", ";
 	}
 	cout << endl;
-
+	
+cout << "Wyswietlanie zawartosci tablica2[] za pomoca petli: " << endl;
+	for ( int i=0; i<5; i=i+1){
+		cout << tablica2[i] << ", ";
+	}
+	cout << endl;
+	
+cout << "Wyswietlanie zawartosci tablica4[] za pomoca petli: " << endl;
+	for ( int i=0; i<4; i=i+1){
+		cout << tablica3[i] << ", ";
+	}
+	cout << endl;
+	
+cout << "Wyswietlanie zawartosci tablica5[] za pomoca petli: " << endl;
+	for ( int i=0; i<3; i=i+1){
+		cout << tablica3[i] << ", ";
+	}
+	
+cout << "Wyswietlanie zawartosci imiona[] za pomoca petli: " << endl;
+	for ( int i=0; i<5; i=i+1){
+		cout << imiona[i] << ", ";
+	}
+	cout << endl;
 	system("pause");
     
 }
