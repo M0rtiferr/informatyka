@@ -34,5 +34,8 @@ main(){
     wartość liczbowa inna niż 0 oznacza prawdę true
     */
     bool tablica3[] = {true, false, 0, 1};
+    
+    // tablica na znaki (typ char)  ('a', '$', 'P', 'L')
+    char tablica4[] = { 'a', '$', 'P', 'L' };
+    
     system("pause");
-
