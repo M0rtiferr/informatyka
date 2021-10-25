@@ -64,7 +64,7 @@ Tablica – kontener uporządkowanych danych takiego samego typu,
     cout << tablica2[3] << endl;
     cout << tablica2[4] << endl;
     
-	cout << "elementy tablicy tablica3[]: " << endl;
+    cout << "elementy tablicy tablica3[]: " << endl;
     cout << tablica3[0] << endl;
     cout << tablica3[1] << endl;
     
@@ -75,10 +75,9 @@ Tablica – kontener uporządkowanych danych takiego samego typu,
     cout << tablica4[3] << endl;
     
     cout << "elementy tablicy tablica5[]: " << endl;    
-	cout << tablica5[0] << endl;
-	cout << tablica5[1] << endl;
-	cout << tablica5[2] << endl;
-
+    cout << tablica5[0] << endl;
+    cout << tablica5[1] << endl;
+    cout << tablica5[2] << endl;
 
     // 3. Definicja tablicy bez inicjalizacji (bez podania wartości)
     
@@ -86,14 +85,25 @@ Tablica – kontener uporządkowanych danych takiego samego typu,
     
     // inicjalizacja elementów tablicy
     imiona[0] = "Piotr";
-    imiona[1] = "Wojtek";
+    imiona[1] = "Maniek";
     imiona[2] = "Denis";
-    imiona[3] = "Przemo";
-    imiona[4] = "Kamil";
+    imiona[3] = "Horacy";
+    imiona[4] = "Radek";
     
     cout << "Imiona to: " << imiona[0] << ", " << imiona[1] << ", " << imiona[2] << ", " << imiona[3] << ", " << imiona[4] << "." << endl;
     
-    
+	int liczba[1000];
+	// Jakie wartości tam są, gdy tablicy nie zainicjalizujemy?
+	cout << liczba[500] << ", " << liczba[999] << endl;
+	// Odpowiedź: tam są śmieci - pozostałości danych po poprzednich programach
+	
+	// 4. Współpraca tablic z pętlami
+	cout << "Wyswietlanie zawartosci tablica1[] za pomoca petli: " << endl;
+	for ( int i=0; i<6; i=i+1){
+		cout << tablica1[i] << ", ";
+	}
+	cout << endl;
+
 	system("pause");
     
 }
