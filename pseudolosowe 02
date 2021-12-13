@@ -1,0 +1,81 @@
+#include <iostream>
+#include <cstdlib> // rand, srand      
+#include <ctime> // time
+using namespace std;
+
+int main(){
+	
+	srand(  time(NULL)     );
+	
+	// generowanie liczby losowej całkowitej z przedziału
+       // od 0 do q
+       //                 rand()%(q+1)    % - modulo/reszta z dzielenia
+
+	int q=10;
+	cout << rand()%(q+1) << endl;
+	cout << rand()%(q+1) << endl;
+	cout << rand()%(q+1) << endl;
+	cout << rand()%(q+1) << endl;
+	cout << rand()%(q+1) << endl;
+	cout << rand()%(q+1) << endl;
+	cout << rand()%(q+1) << endl;
+	cout << rand()%(q+1) << endl;
+	cout << rand()%(q+1) << endl;
+	cout << rand()%(q+1) << endl;
+	cout << rand()%(q+1) << endl;
+	cout << rand()%(q+1) << endl;
+
+    // liczba całkowita z przedziału od p do q
+    //        p+rand()%(q-p+1)
+    int p=1;
+    q=6;
+    cout << "----------------------" << endl;
+	cout << p+rand()%(q-p+1) << endl;
+	cout << p+rand()%(q-p+1) << endl;
+	cout << p+rand()%(q-p+1) << endl;
+	cout << p+rand()%(q-p+1) << endl;
+	cout << p+rand()%(q-p+1) << endl;
+	cout << p+rand()%(q-p+1) << endl;
+	cout << p+rand()%(q-p+1) << endl;
+	cout << p+rand()%(q-p+1) << endl; 
+	cout << p+rand()%(q-p+1) << endl;
+	cout << p+rand()%(q-p+1) << endl;
+	cout << p+rand()%(q-p+1) << endl;
+	cout << p+rand()%(q-p+1) << endl;
+
+	// Liczy RZECZYWISTE z przedziału <0,1>
+	cout << "--------------------------" << endl;
+	cout << ((double) rand() / RAND_MAX) << endl;
+	cout << ((double) rand() / RAND_MAX) << endl;
+	cout << ((double) rand() / RAND_MAX) << endl;
+	cout << ((double) rand() / RAND_MAX) << endl;
+	cout << ((double) rand() / RAND_MAX) << endl;
+	cout << ((double) rand() / RAND_MAX) << endl;
+	cout << ((double) rand() / RAND_MAX) << endl;
+	cout << ((double) rand() / RAND_MAX) << endl;
+	cout << ((double) rand() / RAND_MAX) << endl;
+	cout << ((double) rand() / RAND_MAX) << endl;
+	cout << ((double) rand() / RAND_MAX) << endl;
+	cout << ((double) rand() / RAND_MAX) << endl;
+	cout << ((double) rand() / RAND_MAX) << endl;
+	cout << ((double) rand() / RAND_MAX) << endl;
+	cout << ((double) rand() / RAND_MAX) << endl;
+	cout << ((double) rand() / RAND_MAX) << endl;
+	cout << ((double) rand() / RAND_MAX) << endl;
+	cout << ((double) rand() / RAND_MAX) << endl;
+	cout << ((double) rand() / RAND_MAX) << endl;
+	cout << ((double) rand() / RAND_MAX) << endl;
+	cout << ((double) rand() / RAND_MAX) << endl;
+	cout << ((double) rand() / RAND_MAX) << endl;
+	
+	// (double) - rzutowanie typu, inaczej konwersja typu na double
+	cout << (double) 5/2 << endl; // nie ma dzielenia całkowitego (double/int)
+
+  cout << rand() / RAND_MAX << endl;
+  cout << rand() / RAND_MAX << endl;
+  cout << rand() / RAND_MAX << endl;
+  cout << rand() / RAND_MAX << endl;
+  cout << rand() / RAND_MAX << endl;
+ 
+  cout << ((double) rand() / RAND_MAX) << endl;
+}
