@@ -57,16 +57,6 @@ int main(){
 	cout << ((double) rand() / RAND_MAX) << endl;
 	cout << ((double) rand() / RAND_MAX) << endl;
 	cout << ((double) rand() / RAND_MAX) << endl;
-	cout << ((double) rand() / RAND_MAX) << endl;
-	cout << ((double) rand() / RAND_MAX) << endl;
-	cout << ((double) rand() / RAND_MAX) << endl;
-	cout << ((double) rand() / RAND_MAX) << endl;
-	cout << ((double) rand() / RAND_MAX) << endl;
-	cout << ((double) rand() / RAND_MAX) << endl;
-	cout << ((double) rand() / RAND_MAX) << endl;
-	cout << ((double) rand() / RAND_MAX) << endl;
-	cout << ((double) rand() / RAND_MAX) << endl;
-	cout << ((double) rand() / RAND_MAX) << endl;
 	
 	// (double) - rzutowanie typu, inaczej konwersja typu na double
 	cout << (double) 5/2 << endl; // nie ma dzielenia całkowitego (double/int)
@@ -76,6 +66,26 @@ int main(){
   cout << rand() / RAND_MAX << endl;
   cout << rand() / RAND_MAX << endl;
   cout << rand() / RAND_MAX << endl;
+   
  
   cout << ((double) rand() / RAND_MAX) << endl;
+  
+  q=5;
+  cout << "----------------------------" << endl;
+  cout << (double) rand() / RAND_MAX * q << endl;
+  cout << (double) rand() / RAND_MAX * q << endl;
+  cout << (double) rand() / RAND_MAX * q << endl;
+  cout << (double) rand() / RAND_MAX * q << endl;
+  cout << (double) rand() / RAND_MAX * q << endl;
+  cout << (double) rand() / RAND_MAX * q << endl; 
+  
+  p=-2;
+  q=2;
+  cout << "----------------------------" << endl;
+  cout << p+(double) rand() / RAND_MAX*(q-p) << endl;
+  cout << p+(double) rand() / RAND_MAX*(q-p) << endl;
+  cout << p+(double) rand() / RAND_MAX*(q-p) << endl;
+  cout << p+(double) rand() / RAND_MAX*(q-p) << endl;
+  cout << p+(double) rand() / RAND_MAX*(q-p) << endl;
+  cout << p+(double) rand() / RAND_MAX*(q-p) << endl;
 }
