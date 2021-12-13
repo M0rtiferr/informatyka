@@ -1,0 +1,52 @@
+#include <iostream>
+#include <cstdlib> // rand, srand      
+#include <ctime> // time
+using namespace std;
+
+int main(){
+	
+	// rand - losuje/generuje liczbę całkowitą z przedziału od 0 do RAND_MAX
+	
+	// ile wynosi RAND_MAX?
+	
+	cout << "RAND_MAX:" << RAND_MAX << endl;
+	
+	// jak losować liczby? 
+	cout << rand() << endl;
+	cout << rand() << endl;
+	cout << rand() << endl;
+	cout << rand() << endl;
+	cout << rand() << endl;
+	cout << rand() << endl;
+	cout << rand() << endl;
+	cout << rand() << endl;
+	cout << rand() << endl;
+	cout << rand() << endl;
+
+	// srand() - inicjalizuje funkcję rand()
+	//         - ustawia na konkretny ciąg liczb losowych 
+	
+	cout << "------------------------------" << endl;
+	srand(5);
+	
+	cout << rand() << endl;
+	cout << rand() << endl;
+	cout << rand() << endl;
+	cout << rand() << endl;
+	cout << rand() << endl;
+	
+	
+	cout << "za każdym raem inny ciag liczb losowych: " << endl;
+	
+	srand(time(NULL));
+	
+	cout << rand() << endl;
+	cout << rand() << endl;
+	cout << rand() << endl;
+	cout << rand() << endl;
+	cout << rand() << endl;
+	
+	cout << "time: " << time(NULL) << endl;  
+		
+	system("pause");
+}
