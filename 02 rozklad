@@ -15,6 +15,7 @@ using namespace std;
 void rozklad_na_czynniki_pierwsze(int liczba){
 	int L, P;
 	int d=2;
+	int suma = 0;
 	int licznik = 0;
 	int licz_parzyste = 0;
 	L = liczba;
@@ -23,10 +24,11 @@ void rozklad_na_czynniki_pierwsze(int liczba){
 		if(L % d == 0){	
 			cout << d << ", ";
 			licznik++; // a
+				L=L/d;
 			if( d % 2 == 0){
 				licz_parzyste++;
 			}
-			L=L/d;
+			suma+=d;
 		}else{
 			d++;
 		}	
@@ -35,7 +37,10 @@ void rozklad_na_czynniki_pierwsze(int liczba){
 	cout << endl;
 	cout << "Ilosc czynnikow: " << licznik << endl; // a
 	cout << "Ilosc parzystych czynnikow: " << licz_parzyste << endl; // b
-		cout << "Ilosc nieparzystych czynnikow: " << (licznik - licz_parzyste) << endl; // 2b
+	cout << "Ilosc nieparzystych czynnikow: " << (licznik - licz_parzyste) << endl; // 2b
+	cout << "Srednia to: " << ((float) suma/licznik ) << endl;
+	cout << "Suma to: " << suma << endl;
+	// l, c / l,c - L,c - dzielenie calkowite
 }
 
 int main(){
