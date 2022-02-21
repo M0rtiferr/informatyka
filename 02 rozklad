@@ -16,12 +16,16 @@ void rozklad_na_czynniki_pierwsze(int liczba){
 	int L, P;
 	int d=2;
 	int licznik = 0;
+	int licz_parzyste = 0;
 	L = liczba;
 	
 	do{
 		if(L % d == 0){	
 			cout << d << ", ";
 			licznik++; // a
+			if( d % 2 == 0){
+				licz_parzyste++;
+			}
 			L=L/d;
 		}else{
 			d++;
@@ -30,6 +34,8 @@ void rozklad_na_czynniki_pierwsze(int liczba){
 	}while(L>1);
 	cout << endl;
 	cout << "Ilosc czynnikow: " << licznik << endl; // a
+	cout << "Ilosc parzystych czynnikow: " << licz_parzyste << endl; // b
+		cout << "Ilosc nieparzystych czynnikow: " << (licznik - licz_parzyste) << endl; // 2b
 }
 
 int main(){
