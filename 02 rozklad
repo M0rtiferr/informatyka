@@ -1,0 +1,52 @@
+#include <iostream>
+using namespace std;
+    
+// Napisz funkcję, która przyjmuje liczbę całkowitą dodatnią, rozkłada ją na czynniki
+// pierwsze. Funkcje nie zwraca wartości, lecz wyświetla czynniki.
+
+
+// a) policzyć czynniki - wyświetlić informację o ilości czynników
+// b) policzyć parzyste i nieparzyste czynniki (osobno)
+// c) średnia arytmetyczna z czynników
+// d) ...
+// Wszystkie modyfikacje należy ująć w funkcji dzielniki().
+ 
+
+void rozklad_na_czynniki_pierwsze(int liczba){
+	int L, P;
+	int d=2;
+	int licznik = 0;
+	L = liczba;
+	
+	do{
+		if(L % d == 0){	
+			cout << d << ", ";
+			licznik++; // a
+			L=L/d;
+		}else{
+			d++;
+		}	
+		
+	}while(L>1);
+	cout << endl;
+	cout << "Ilosc czynnikow: " << licznik << endl; // a
+}
+
+int main(){
+	rozklad_na_czynniki_pierwsze(24);
+	rozklad_na_czynniki_pierwsze(100);
+	rozklad_na_czynniki_pierwsze(10);
+	
+	
+	// wywołac tę funkcję: 1) Komunikat "podaj liczbe";
+    //                     2) wczytywanie wartosci z klawiatury;
+    //                     3) Wywołanie funkcji. 4) Zapętlenie.
+	int n;
+a:
+	cout << "Podaj liczbe: " << endl;
+	cin >> n;
+	rozklad_na_czynniki_pierwsze(n);
+goto a;	
+	
+	system ("pause");
+}
