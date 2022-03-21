@@ -1,0 +1,31 @@
+a)
+imie		nazwisko
+Piotr		Bogasiuk
+Anastazja	Chojnawiak
+Marcin		Chojnik
+Karol		Kaczmarczyk
+Dominik		Kaczmarek
+Mariusz		Lis
+Katarzyna	Weber
+
+b)
+
+kierunek	PoliczOfIdentyfikator
+fizyka		48
+informatyka	55
+matematyka	38
+
+c)
+imie		nazwisko	PoliczOfkierunek
+Krzysztof	Peszek		5
+Maciej		Janczak		5
+
+d)
+plec	PoliczOfidosoby
+k	15
+m	40
+
+e)
+
+kierunek	ŚredniaOfmatematyka
+fizyka		71,5625
